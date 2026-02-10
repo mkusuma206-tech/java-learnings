@@ -21,10 +21,9 @@ class user_input_string{
     }
 }
 
-class user_input_string{
 
-}
 class user_input_float{
+
     public static void main(String[] args ) {
         Scanner scn = new Scanner(System.in);
         float f = scn.nextFloat();
@@ -32,7 +31,23 @@ class user_input_float{
     } 
 }
 
+class user_input_double{
+    
+    public static void main(String[] args ) {
+        Scanner scn = new Scanner(System.in);
+        float f = scn.nextDouble();
+        System.out.println("The value of double is : "+value)
+    } 
+}
 
+class user_input_long{
+    
+    public static void main(String[] args ) {
+        Scanner scn = new Scanner(System.in);
+        float f = scn.nextLong();
+        System.out.println("The value of long is : "+a)
+    } 
+}
 class addition_of_two_numbers{
     public static void main(String[] args ) {
         Scanner scn = new Scanner(System.in);
