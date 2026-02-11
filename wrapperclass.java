@@ -21,7 +21,7 @@ class wrapperclass2{
         Scanner scn = new Scanner(System.in);
         String a= "10";
         int b= Integer.parseInt(a);
-        System.out.println("The value of a is string: "+a);
+        System.out.println("The value of a is String: "+a);
         System.out.println("The value of b is variable: "+b);
         System.out.println(a+b);
     
